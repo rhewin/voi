@@ -1,0 +1,93 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+body {
+  display: flex;
+  place-items: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content:center;
+  line-height: 1.5;
+  min-height: 100vh;
+  width: 375px;
+  padding: 16px;
+  position: relative;
+}
+a, a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 3px;
+}
+input::placeholder { /* Most modern browsers support this now. */
+  color: #BDBDBD;
+}
+input:focus-visible{
+  outline:0;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.float-right {
+  float: right;
+}
+h1 {
+  font: 30px/36.31px inter, sans-serif;
+  font-weight: 600;
+  position: relative;
+}
+.border-round {
+  border-radius: 100px;
+}
+.border-squircles {
+  border-radius: 10px;
+}
+.bg-primary {
+  background-color: rgba(93, 176, 117, 1);
+  border: 1px solid #5DB075;
+  color:#FFF;
+}
+.bg-default {
+  background-color: rgba(246, 246, 246, 1);
+  border: 1px solid #E8E8E8;
+  color:#000;
+}
+.cl-primary {
+  color: #5DB075;
+}
+.btn-full, .input-text-full {
+  width: 100%;
+  margin: 8px 0;
+}
+.btn-submit:hover, .btn-send:hover {
+  background-color: rgba(93, 176, 117, .8);
+}
+.btn-submit, .btn-send {
+  border: 0;
+  padding: 16px;
+  text-transform: uppercase;
+}
+.btn-send {
+  width: 34px;
+  height: 34px;
+  margin: 8px 24px;
+  padding: 0;
+}
+.btn-exit {
+  border: 0;
+  background: none;
+}
+.input-text-form {
+  background-color:#F6F6F6;
+  border: 1px solid #E8E8E8;
+  padding: 16px;
+}
